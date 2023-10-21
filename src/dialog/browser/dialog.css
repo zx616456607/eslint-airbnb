@@ -1,0 +1,25 @@
+.draggable-dialog__wrapper .dialogBlock {
+  position: absolute;
+}
+
+.draggable-dialog__wrapper .dialogTitle {
+  cursor: move;
+}
+
+.draggable-dialog__wrapper.hideShade {
+  background: transparent !important;
+}
+
+.p-Widget.dialogOverlay.not-module-dialog {
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: auto;
+  padding: 1px;
+  transform: translate(-50%, -50%);
+}
+
+.p-Widget.dialogOverlay.not-module-dialog .dialogBlock {
+  width: 100%;
+  height: 100%;
+}

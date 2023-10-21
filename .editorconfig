@@ -1,0 +1,15 @@
+root = true
+
+[*]
+# 文件末尾添加一个空行
+insert_final_newline = false
+# 结尾换行符，可选"lf"、"cr"、"crlf"
+end_of_line = crlf
+# 空格缩进,可选"space"、"tab"
+indent_style = space
+
+[*.{js,ts,tsx,md,json,yml}]
+# 缩进2个空格
+indent_size = 2
+# 字符串使用单引号
+quote_type = single

@@ -1,0 +1,78 @@
+{
+  "name": "@atu/atu_base",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src",
+    "core",
+    "i18n",
+    "shared",
+    "themes"
+  ],
+  "dependencies": {
+    "@theia/core": "1.41.0",
+    "antd": "^5.5.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "rimraf": "latest",
+    "stylelint": "^15.10.3",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard": "^34.0.0",
+    "typescript": "~4.9.4"
+  },
+  "scripts": {
+    "prepare": "husky install && yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "stylelint": "stylelint '**/*.{css,scss,sass}'",
+    "stylelint:fix": "stylelint  '**/*.{css,scss,sass}' --fix",
+    "lint": "eslint --ext js,jsx,ts,tsx src",
+    "lint:fix": "eslint --ext js,jsx,ts,tsx src --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ],
+    "**/*.{css,scss,sass}": [
+      "stylelint --fix"
+    ]
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/base_ability/business/browser/business_frontend_module"
+    },
+    {
+      "frontend": "lib/base_ability/global_service_provider/browser/global_service_frontend_module",
+      "backend": "lib/base_ability/global_service_provider/node/global_service_backend_module"
+    },
+    {
+      "electronMain": "lib/base_ability/core_modify/electron_main/electron_main_applicatin_module"
+    },
+    {
+      "frontend": "lib/menu_module/browser/frontend-application-module"
+    }
+  ]
+}

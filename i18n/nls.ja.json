@@ -1,0 +1,482 @@
+{
+  "theia": {
+    "workspace": {
+      "closeWorkspace": "本当にプロジェクトを終了させるのですか?",
+      "openRecentPlaceholder": "開きたいプロジェクトの名前を入力する",
+      "preserveWindow": "現在のウィンドウでプロジェクトを開くことができるようになりました。"
+    }
+  },
+  "vuengine": {
+    "about": {
+      "and": "と",
+      "thankYouToOurSupporters": "パトロンでのご支援ありがとうございました。",
+      "title": "VUEngine Studioについて",
+      "version": "バージョン",
+      "vsCodeApiVersion": "VSCode APIバージョン"
+    },
+    "build": {
+      "abortBuild": "ビルドを中止する",
+      "build": "ビルド",
+      "buildMode": "ビルドモード",
+      "buildProject": "ビルドプロジェクト",
+      "buildSuccessful": "成功させる",
+      "buildSuccessfulWithWarnings": "ビルド成功(警告あり)",
+      "building": "建物",
+      "commandCompleted": "コマンド{0}が完了しました。",
+      "commands": {
+        "build": "ビルドプロジェクト",
+        "category": "ビルド",
+        "clean": "クリーンビルドフォルダ",
+        "expandView": "トグル最大化",
+        "setMode": "ビルドモードの設定...",
+        "showHelp": "ショーハンドブックページ",
+        "showSettings": "ビルド環境設定の表示",
+        "toggleDumpElf": "トグルダンプELF",
+        "togglePedanticWarnings": "トグル ペダンティック ワーニング",
+        "toggleView": "トグルビルドビュー"
+      },
+      "couldNotFindCommand": "コマンド{0}が見つかりませんでした。",
+      "couldNotRunTask": "タスク {0} を実行できませんでした。",
+      "done": "完了",
+      "dumpElf": "ダンプエルフ",
+      "errorCouldNotFindMakefile": "エラーです。makefileが見つかりません。以下の場所を試してみました。",
+      "errorEnginePathMustNotContainSpaces": "エラーが発生しました。エンジンパスにはスペースを含んではいけません。あなたのエンジンパス",
+      "errorPluginsPathMustNotContainSpaces": "エラーが発生しました。プラグインパスにスペースを含んではいけません。あなたのプラグインパス",
+      "errorProjectPathMustNotContainSpaces": "エラーが発生しました。プロジェクトパスにはスペースを含んではいけません。あなたのプロジェクトパス",
+      "errorUserPluginsPathMustNotContainSpaces": "エラーが発生しました。ユーザープラグインのパスにはスペースを含んではいけません。あなたのユーザープラグインのパス。",
+      "malformedPreferenceMissingTaskName": "不正な環境設定: タスク名がありません。",
+      "malformedPreferenceMissingTaskType": "不正なプリファレンス:タスク {0} の型がありません。",
+      "malformedPreferenceNotAnArray": "プリファレンスが不正です:配列ではありません。",
+      "mode": "モード",
+      "modes": {
+        "betaDescription": "ハードウェアでの動作確認用に、厳選されたアサートが含まれています。",
+        "debugDescription": "すべてのランタイムアサーションを含み、デバッグツールも含む。",
+        "releaseDescription": "アサートやデバッグフラグを含まない、出荷時のみの仕様です。",
+        "toolsDescription": "選択されたアサート、デバッグツールも含まれています。"
+      },
+      "noTasksFound": "タスクは見つかりませんでした。",
+      "pedanticWarnings": "ペダンティック・ウォーニング",
+      "pleaseInstallWsl": "ビルド時間を大幅に改善するために、WSLのインストールをご検討ください。",
+      "postBuildTasks": "ビルド後のタスク",
+      "preBuildTasks": "プリビルドタスク",
+      "preferences": {
+        "dumpElfDescription": "アセンブリコードとメモリセクションをダンプします。",
+        "engineCorePathDescription": "コアライブラリへのフルパス。空白の場合、ビルトインの VUEngine Core を使用します。",
+        "includeEngineCoreInWorkspaceDescription": "ワークスペースにコアライブラリを自動的にインクルードする。",
+        "pedanticWarningsDescription": "ペダンティックコンパイラの警告を有効にする。",
+        "postBuildTasksDescription": "ビルド後に実行するタスクとコマンドの一覧です。",
+        "preBuildTasksDescription": "ビルド前に実行するタスクとコマンドの一覧です。"
+      },
+      "runningPostBuildTasks": "ビルド後のタスクの実行",
+      "runningPreBuildTasks": "プリビルドタスクの実行",
+      "setBuildModePlaceholder": "どのモードでビルドするかを選択する",
+      "setBuildModeTitle": "ビルドモードの設定",
+      "showOnlyErrors": "エラーのみ表示",
+      "showOnlyWarnings": "警告のみを表示する",
+      "taskCompleted": "タスク{0}が完了しました。",
+      "taskTerminatedBySignal": "タスク｛0｝はシグナル｛1｝により終了した。",
+      "taskTerminatedForUnknownReason": "タスク{0}が原因不明で終了しました。",
+      "taskTerminatedWithExitCode": "タスク{0}は終了コード{1}で終了しました。",
+      "toggleAutomaticScrolling": "自動スクロールのトグル"
+    },
+    "codegen": {
+      "commands": {
+        "category": "コードジェネレータ",
+        "generateAll": "すべて生成する"
+      },
+      "generateAllDone": "ファイルの生成が完了しました。"
+    },
+    "documentation": {
+      "commands": {
+        "category": "ドキュメンテーション",
+        "openHandbook": "オープンハンドブック",
+        "openTechScroll": "オープンハードウェアドキュメント"
+      },
+      "documentation": "ドキュメンテーション",
+      "hardwareDocumentation": "ハードウェア・ドキュメント",
+      "vuengineStudioHandbook": "VUEngine Studioハンドブック"
+    },
+    "editors": {
+      "areYouSureYouWantToDeleteItem": "0} {1} を削除してよろしいですか?",
+      "chooseAnItemPlaceholder": "編集する項目を選択します。",
+      "chooseAnItemTitle": "項目を選択する",
+      "commands": {
+        "category": "編集部",
+        "open": "オープンエディター"
+      },
+      "deleteNodeQuestion": "ノードを削除しますか?",
+      "palette": {
+        "black": "ブラック",
+        "brightRed": "ブライトレッド",
+        "darkRed": "ダークレッド",
+        "mediumRed": "ミディアムレッド"
+      },
+      "visualEditor": "ビジュアルエディタ"
+    },
+    "emulator": {
+      "builtIn": "ビルトイン",
+      "commands": {
+        "category": "エミュレータ",
+        "run": "エミュレータでの実行",
+        "selectEmulator": "Set Default Emulator Config..."
+      },
+      "configureInput": "入力の設定",
+      "controller": {
+        "aCommand": "A",
+        "bCommand": "B",
+        "category": "エミュレーター・ゲームパッド",
+        "lDownCommand": "左D-Pad ⇩ 左D-Pad ⇩ 右D-Pad",
+        "lLeftCommand": "左D-Pad ⇦ 左D-Pad ⇦ 右D-Pad",
+        "lRightCommand": "左D-Pad ⇨ 右D-Pad",
+        "lTriggerCommand": "左トリガー",
+        "lUpCommand": "左D-Pad ⇧。",
+        "rDownCommand": "右D-Pad ⇩ 左D-Pad ⇩右D-Pad",
+        "rLeftCommand": "右D-Pad ⇦ 右D-Pad ⇦右D-Pad",
+        "rRightCommand": "右D-Pad ⇨ 右D-Pad",
+        "rTriggerCommand": "右トリガー",
+        "rUpCommand": "右D-Pad ⇧。",
+        "selectCommand": "選択",
+        "startCommand": "スタート"
+      },
+      "currentSaveState": "現在の保存状態",
+      "emulationMode": "エミュレーションモード",
+      "emulationModes": {
+        "accurate": "アキュレイト",
+        "fast": "高速"
+      },
+      "emulator": "エミュレータ",
+      "input": {
+        "audioMuteCommand": "オーディオミュート",
+        "frameAdvanceCommand": "フレームアドバンス",
+        "fullscreenCommand": "フルスクリーン",
+        "loadStateCommand": "負荷状態",
+        "pauseToggleCommand": "トグルポーズ",
+        "resetCommand": "リセット",
+        "rewindCommand": "巻き戻し",
+        "saveStateCommand": "セーブステート",
+        "screenshotCommand": "スクリーンショットを撮る",
+        "stateSlotDecreaseCommand": "セーブ状態スロットの減少",
+        "stateSlotIncreaseCommand": "保存状態スロットの増加",
+        "toggleControlsOverlayCommand": "トグルコントロールオーバーレイ",
+        "toggleFastForwardCommand": "トグル早送り",
+        "toggleLowPower": "トグル式低電力信号",
+        "toggleSlowmotionCommand": "トグルスローモーション"
+      },
+      "mute": "ミュート",
+      "pause": "ポーズ",
+      "preferences": {
+        "builtInEmulationModeDescription": "内蔵エミュレータのエミュレーションモード。",
+        "builtInScalingModeDescription": "内蔵エミュレータのスケーリングモード。",
+        "builtInStereoModeDescription": "内蔵エミュレータの立体視表示モード。",
+        "customConfigsDescription": "コンパイルされたROMを実行するためのエミュレータの構成をユーザーが定義することができます。",
+        "customDefaultDescription": "コンパイル済み ROM を実行するために使用するエミュレータの設定。空白の場合、内蔵エミュレータを使用します。"
+      },
+      "resume": "レジュメ",
+      "runQueued": "ランキューブ",
+      "scale": "階段",
+      "scales": {
+        "auto": "車",
+        "stretch": "ストレッチ"
+      },
+      "selectDefaultEmulatorPlaceholder": "コンパイルされたプロジェクトを実行するには、どのエミュレータの設定を使用すればよいですか?",
+      "selectDefaultEmulatorTitle": "デフォルトのエミュレータ構成を選択",
+      "showHelp": "ショーハンドブックページ",
+      "stereoMode": "ステレオモード",
+      "stereoModes": {
+        "2dBlackBlue": "2D(ブルー/ブラック)",
+        "2dBlackCyan": "2D(シアン/ブラック)",
+        "2dBlackElectricCyan": "2D(エルシアン/ブラック)",
+        "2dBlackGreen": "2D(グリーン/ブラック)",
+        "2dBlackMagenta": "2D(マゼンタ/ブラック)",
+        "2dBlackRed": "2D(レッド/ブラック)",
+        "2dBlackWhite": "2D(ホワイト/ブラック)",
+        "2dBlackYellow": "2D(イエロー／ブラック)",
+        "anaglyph-redElectricCyan": "アナグリフ(レッド/エル.シアン)",
+        "anaglyphGreenMagenta": "アナグリフ(赤・緑)",
+        "anaglyphRedBlue": "アナグリフ(赤・青)",
+        "anaglyphRedCyan": "アナグリフ(レッド／シアン)",
+        "anaglyphYellowBlue": "アナグリフ(黄／青)",
+        "cyberscope": "サイバースコープ",
+        "hli": "水平線インターレース",
+        "sideBySide": "サイド・バイ・サイド",
+        "vli": "縦線インターレース"
+      },
+      "unmute": "アンミュート"
+    },
+    "export": {
+      "commands": {
+        "category": "輸出",
+        "export": "エクスポートROM..."
+      },
+      "doYouReallyWantToOverwrite": "本当に\"${}\"を上書きするのですか?",
+      "exportRom": "エクスポート ROM",
+      "overwrite": "オーバーライト"
+    },
+    "flashCarts": {
+      "abort": "中止",
+      "cancel": "キャンセル",
+      "commands": {
+        "category": "フラッシュカート",
+        "detectConnected": "接続されたフラッシュカートの検出",
+        "expandView": "トグル最大化",
+        "flash": "フラッシュからフラッシュカートへ",
+        "showHelp": "ショーハンドブックページ",
+        "showSettings": "Flash Cartsの環境設定を表示する",
+        "toggleView": "トグルフラッシュカート表示"
+      },
+      "connectYourFlashCarts": "Virtual BoyフラッシュカートをUSBでパソコンに接続します。",
+      "connectedFlashCarts": "コネクテッドフラッシュカート",
+      "done": "完了",
+      "flash": "フラッシュ",
+      "flashCarts": "フラッシュカート",
+      "flasherSoftwareDoesNotExist": "フラッシャーソフトウェアが${0}に存在しません。",
+      "flashingIsQueued": "フラッシュはキューに入れられ、ビルドの準備ができ次第、開始されます",
+      "flashingQueued": "点滅 キュー",
+      "insufficientSpaceToHoldRom": "ROMを格納するスペースが不足している",
+      "noPathToFlasherSoftwareProvided": "カート ${0} で提供されたフラッシャーソフトウェアへのパスがありません。",
+      "noneFound": "フラッシュカートが見つかりません",
+      "preferences": {
+        "flashCartsDescription": "フラッシュカートの自動検出と点滅のためのコンフィギュレーション。"
+      },
+      "youCanConnectAnyNumberOfCarts": "一度に何台でもフラッシュカートを接続し、フラッシュさせることができます。"
+    },
+    "general": {
+      "commands": {
+        "category": "VUEngine Studio",
+        "reportIssue": "レポート課題",
+        "support": "VUEngine Studioをサポート"
+      },
+      "selectDirectory": "ディレクトリを選択",
+      "space": "スペース",
+      "themes": {
+        "dark": "ダーク",
+        "highContrast": "高コントラスト",
+        "light": "光",
+        "virtualBoy": "バーチャルボーイ"
+      }
+    },
+    "gettingStarted": {
+      "alwaysShowThisPage": "プロジェクトが開かれていないときは、常にこのページを表示します。",
+      "commands": {
+        "showHelp": "ショーハンドブックページ",
+        "showWidget": "はじめに"
+      },
+      "links": "リンク集",
+      "preferences": {
+        "showGettingStartedDescription": "プロジェクトが開かれていないときに、Getting Started ページを表示するようにしました。"
+      },
+      "showDocumentation": "ドキュメントを表示する",
+      "supportUsOnPatreon": "パトロンで支援する",
+      "vuengineWebsite": "VUEngineウェブサイト"
+    },
+    "handbook": {
+      "handbook": "ハンドブック"
+    },
+    "imageConverter": {
+      "changedImagesOnly": "変更した画像のみ",
+      "clearLogs": "クリアログ",
+      "commands": {
+        "category": "イメージコンバーター",
+        "convertAll": "すべて変換する",
+        "convertChanged": "コンバージョン変更",
+        "showHelp": "ショーハンドブックページ",
+        "toggleView": "トグル画像変換ビュー"
+      },
+      "convert": "コンバート",
+      "done": "完了",
+      "foundXImages": "0}枚の画像が見つかりました。",
+      "imageConverter": "イメージコンバーター",
+      "noneFound": "該当するものはありません。",
+      "startingToConvertAll": "全画像の変換を開始する...",
+      "startingToConvertChanged": "変更した画像の変換を開始..."
+    },
+    "plugins": {
+      "add": "追加",
+      "commands": {
+        "category": "プラグイン",
+        "clearAll": "検索結果をクリアにする",
+        "new": "新規プラグイン",
+        "searchByAuthor": "著者名で検索",
+        "searchByTag": "タグで検索",
+        "showHelp": "ショーハンドブックページ",
+        "showInstalled": "インストールされているプラグインを表示する",
+        "showRecommendations": "おすすめプラグインを表示する",
+        "showSettings": "プラグインの環境設定を表示する",
+        "toggleView": "プラグインビューの切り替え"
+      },
+      "dependencies": "依存関係",
+      "installed": "インストール済み",
+      "noDependencies": "なし",
+      "plugin": "プラグイン",
+      "plugins": "プラグイン",
+      "preferences": {
+        "includeLibraryInWorkspaceDescription": "ワークスペースにプラグインライブラリを自動的に含めることができます。",
+        "includeUserLibraryInWorkspaceDescription": "ワークスペースにユーザープラグインを自動的に含めることができます。",
+        "libraryPathDescription": "プラグインライブラリへのフルパス。空白の場合、ビルトインの VUEngine Plugins ライブラリを使用します。",
+        "userLibraryPathDescription": "すべてのユーザープラグインのベースフォルダへのフルパス。"
+      },
+      "recommended": "おすすめ",
+      "remove": "削除",
+      "search": "検索",
+      "searchPlugins": "検索プラグイン"
+    },
+    "projects": {
+      "areYouSureYouWantToDelete": "本当に{0}を削除しますか?",
+      "author": "著者名",
+      "commands": {
+        "category": "プロジェクト",
+        "closeProject": "プロジェクト終了",
+        "newProject": "新企画",
+        "openProject": "オープンプロジェクト...",
+        "openProjectFile": "プロジェクトファイルを開く",
+        "openRecentProject": "最近のプロジェクトを開く...",
+        "saveProjectAs": "プロジェクトを別名で保存...",
+        "toggleView": "プロジェクトビューのトグル"
+      },
+      "create": "作成",
+      "deleteNodeQuestion": "ノードを削除しますか?",
+      "errorBasePathDoesNotExist": "エラー:ベースパスが存在しない",
+      "errorNoProjectName": "エラー: プロジェクト名が指定されていません",
+      "gameCode": "ゲームコード",
+      "makerCode": "メーカーコード",
+      "myProject": "マイプロジェクト",
+      "name": "名称",
+      "noTypesRegistered": "タイプは登録されていません。",
+      "path": "パス",
+      "preferences": {
+        "authorDefault": "VUEngine Studioユーザー",
+        "authorDescription": "新しいプロジェクトに使用するデフォルトの作者名。",
+        "basePathDescription": "新規プロジェクトのベースパス。",
+        "makerCodeDescription": "新規プロジェクトのROMヘッダに配置するデフォルトのメーカーコード。"
+      },
+      "project": "プロジェクト",
+      "selectParentFolder": "新規プロジェクトの親フォルダを選択する",
+      "settingUpNewProject": "新規プロジェクトの立ち上げ",
+      "template": "テンプレート",
+      "templates": {
+        "bareboneDescription": "1つの「Hello World」画面と、スプラッシュスクリーンや自動ポーズなどを追加するための最も重要なプラグインを含む(ほとんど)空のプロジェクトです。",
+        "bareboneTitle": "ベアボーン",
+        "imageViewerDescription": "ステレオ画像ビューア。",
+        "imageViewerTitle": "画像ビューア",
+        "multiplayerDescription": "エンジンの通信クラスを利用して、リンクケーブルで多人数対戦を行うシンプルなポン菓子風ゲーム。",
+        "multiplayerTitle": "多人数参加型ゲーム",
+        "platformerDescription": "フル機能のシングルレベルプラットフォームゲーム。",
+        "platformerTitle": "プラットフォームゲーム"
+      },
+      "verifying": "ベリファイ"
+    },
+    "rumblePack": {
+      "actions": "アクション",
+      "break": "休憩",
+      "builtInHapticEffects": "触覚効果内蔵",
+      "commands": {
+        "category": "ランブルパック",
+        "detectConnected": "Detect Connected Rumble Pack",
+        "expand": "トグル最大化",
+        "help": "ショーハンドブックページ",
+        "openWidget": "ランブルパックツールを開く"
+      },
+      "connected": "接続済み",
+      "disconnected": "ディスコネクト",
+      "effect": "効果",
+      "effects": {
+        "1000MsAlert": "1000 ms 警報",
+        "750MsAlert": "750 ms 警報",
+        "buzz": "バズ",
+        "doubleClick": "ダブルクリック",
+        "longBuzzForProgrammaticStopping": "プログラマティックストップへの長いバズ",
+        "longDoubleSharpClickMedium": "ロング ダブル シャープ クリック ミディアム",
+        "longDoubleSharpClickStrong": "ロングダブル シャープクリック ストロング",
+        "longDoubleSharpTick": "ロングダブルシャープティック",
+        "mediumClick": "中クリック",
+        "pulsingMedium": "脈打つ媒体",
+        "pulsingSharp": "パルス状シャープ",
+        "pulsingStrong": "脈打つ強さ",
+        "sharpClick": "シャープなクリック感",
+        "sharpTick": "シャープティック",
+        "shortDoubleClickMedium": "ショートダブルクリックミディアム",
+        "shortDoubleClickStrong": "ショートダブルクリック ストロング",
+        "shortDoubleSharpTick": "ショートダブルシャープティック",
+        "smoothHum": "Smooth Hum {0} (キック、ブレーキパルスなし)",
+        "softBump": "ソフトバンプ",
+        "softFuzz": "ソフトファズ",
+        "strongBuzz": "ストロングバズ",
+        "strongClick": "強力なクリック感",
+        "transitionClick": "トランジションクリック",
+        "transitionHum": "トランジション・ハム",
+        "transitionRampDownLongSharp": "トランジションランプダウンロングシャープ",
+        "transitionRampDownLongSmooth": "トランジションランプダウンロングスムーズ",
+        "transitionRampDownMediumSharp": "トランジション・ランプダウン・ミディアム・シャープ",
+        "transitionRampDownMediumSmooth": "トランジションランプダウン ミディアムスムーズ",
+        "transitionRampDownShortSharp": "トランジション・ランプダウン・ショートシャープ",
+        "transitionRampDownShortSmooth": "トランジションランプダウンショートスムーズ",
+        "transitionRampUpLongSharp": "トランジション・ランプアップ・ロングシャープ",
+        "transitionRampUpLongSmooth": "トランジションランプアップロングスムーズ",
+        "transitionRampUpMediumSharp": "トランジションランプアップ ミディアムシャープ",
+        "transitionRampUpMediumSmooth": "トランジションランプアップ ミディアムスムーズ",
+        "transitionRampUpShortSharp": "トランジション・ランプアップ・ショートシャープ",
+        "transitionRampUpShortSmooth": "トランジション・ランプアップ・ショートスムーズ",
+        "tripleClick": "トリプルクリック"
+      },
+      "frequency": "周波数",
+      "jsonFormat": "JSON形式",
+      "log": "ログ",
+      "menu": "メニュー",
+      "negativeSustain": "ネガティヴ・サスティーン",
+      "overdrive": "オーバードライブ",
+      "positiveSustain": "ポジティブサスティーン",
+      "printCommands": "プリントコマンド",
+      "reRunLastEffect": "ラストエフェクトの再実行",
+      "rumblePack": "ランブルパック",
+      "rumblePackConnected": "ランブルパック コネクテッド",
+      "rumblePackConnectionStatus": "ランブルパック接続状態",
+      "rumblePackTool": "ランブルパックツール",
+      "runEffect": "ラン効果",
+      "stopCurrentEffect": "電流の効果を停止する",
+      "sustainNeg": "サスティーン(Neg.)",
+      "sustainPos": "サスティーン(pos.)",
+      "vbCommandLineState": "VB コマンドライン状態",
+      "vbSyncLineState": "VB Sync Line State"
+    },
+    "titlebar": {
+      "commands": {
+        "category": "ウインドウ",
+        "maximizeWindow": "ウィンドウを最大化する",
+        "minimizeWindow": "ウィンドウの最小化",
+        "unmaximizeWindow": "ウィンドウの最大化解除"
+      }
+    },
+    "updater": {
+      "alreadyUsingLatestVersion": "すでに最新版の VUEngine Studio をご利用いただいています。",
+      "applicationUpdate": "アプリケーションの更新",
+      "commands": {
+        "category": "アップデータ",
+        "checkForUpdates": "アップデートを確認する...",
+        "restartToUpdate": "アップデートするために再起動する"
+      },
+      "downloading": "ダウンロード",
+      "never": "決して",
+      "no": "いいえ",
+      "preferences": {
+        "reportOnStartDescription": "アプリケーション起動後、利用可能なアップデートを報告する。"
+      },
+      "updateFoundWannaUpdate": "更新が見つかりました。アップデートしますか?",
+      "updateHasBeenDownloaded": "アップデートがダウンロードされました。今すぐインストールを再開しますか?",
+      "viewErrorLog": "エラーログを見る",
+      "yes": "はい"
+    },
+    "zoom": {
+      "commands": {
+        "category": "表示",
+        "resetZoom": "リセット・ズーム",
+        "zoomIn": "ズームイン",
+        "zoomOut": "ズームアウト"
+      },
+      "preferences": {
+        "showZoomLevelInStatusBarDescription": "ステータスバーにズームレベルを表示(100％でない場合のみ)。",
+        "zoomLevelDescription": "ウィンドウの表示倍率を調整します。"
+      },
+      "resetZoom": "リセット・ズーム"
+    }
+  }
+}

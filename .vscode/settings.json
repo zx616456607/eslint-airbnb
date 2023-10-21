@@ -1,0 +1,28 @@
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  // 按 "Tab" 时插入空格。该设置在 `editor.detectIndentation` 启用时根据文件内容进行重写。
+  "editor.insertSpaces": true,
+  // 一个制表符等于的空格数，与eslint 规则 indent 保持一致。该设置在 `editor.detectIndentation` 启用时根据文件内容进行重写。
+  "editor.tabSize": 2,
+  // ESLint `max-len` rule.
+  "editor.rulers": [180],
+  "stylelint.validate": ["css", "scss", "sass"],
+  // 设置是否在保存时文件末尾插上一个新行
+  "files.insertFinalNewline": true,
+  // 文件结尾换行符，与 eslint 规则 eol-last 保持一致
+  "files.eol": "\r\n",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

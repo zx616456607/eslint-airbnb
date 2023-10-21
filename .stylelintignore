@@ -1,0 +1,11 @@
+
+.husky
+.vscode
+.idea
+*.sh
+*.md
+
+**/node_modules/**
+**/lib/**
+**/.browser_modules/**
+**/plugins/**
